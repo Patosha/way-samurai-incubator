@@ -1,0 +1,17 @@
+.nav {
+    grid-area: nav;
+    background-color: brown;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link.active {
+    color: goldenrod;
+}
