@@ -5,17 +5,36 @@ function App() {
     return (
         <div className='app-wrapper'>
             <header className='header'>
-                <img
-                    src="https://it-incubator.ru/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8a063c2a.svg&w=256&q=75"
-                    alt="logo"/>
+                <img className='logo'
+                     src="https://cdn.pixabay.com/photo/2020/12/05/06/45/flag-5805228__340.png"
+                     alt="logo"/>
             </header>
             <nav className='nav'>
-                <ul>
+                <ul className='navList'>
                     <li>
-                        Profile
+                        <a className='navLink' href="/">
+                            Profile
+                        </a>
                     </li>
                     <li>
-                        Messages
+                        <a className='navLink' href="/">
+                            Messages
+                        </a>
+                    </li>
+                    <li>
+                        <a className='navLink' href="/">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a className='navLink' href="/">
+                            Music
+                        </a>
+                    </li>
+                    <li>
+                        <a className='navLink' href="/">
+                            Settings
+                        </a>
                     </li>
                 </ul>
             </nav>
